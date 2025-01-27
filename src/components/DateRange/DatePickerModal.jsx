@@ -24,6 +24,9 @@ const DatePickerModal = () => {
         console.log('click');
     };
 
+
+
+    
     // Function to handle date selection
     const handleDateChange = (ranges) => {
         setSelectedDateRange(ranges.selection);
