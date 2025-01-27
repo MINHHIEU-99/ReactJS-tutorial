@@ -1,0 +1,114 @@
+.header {
+    width: 100%;
+    height: 50%;
+    background-color: #003b95;
+    
+
+    padding: 20px 0;
+}
+
+.header-container {
+    margin: auto;
+    width: 55%;
+    height: 100%;
+    /* background-color: #e27a19; */
+
+    /* position: relative; */
+}
+
+.title .btn {
+    background-color: #006ce4;
+    margin: 20px 0;
+    padding: 10px;
+    color: #fff;
+    border: 0px;
+}
+
+.title .btn:active,
+.title .btn:hover {
+    background-color: #087afc;
+    cursor: pointer;
+}
+.title h1 {
+    margin-bottom: 16px;
+    color: #fff;
+}
+.title p {
+    color: #fff;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+    /* width: 100%; */
+    margin: 20px 0;
+    padding: 5px 40px;
+    background-color: #fff;
+    border: 2px solid #f09319;
+    border-radius: 5px;
+    color: rgba(3, 18, 26, 1);
+
+    position: relative;
+    top: 70px;
+}
+.search-bar--text {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+.search-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    /* width: 90%; */
+}
+
+.search-item input {
+    width: 250px;
+}
+
+.date-picker {
+    display: none;
+    position: absolute;
+    top: 60px;
+
+}
+.dateRange-active {
+    position: absolute;
+    top: 50px;
+    z-index: 3;
+    
+}
+.dateRange-close {
+    display: none;
+}
+
+.search-bar .btn {
+    background-color: #006ce4;
+    margin: 5px;
+    padding: 10px;
+    color: #fff;
+    border: 0px;
+}
+
+.search-bar .btn:active,
+.search-bar .btn:hover {
+    background-color: #087afc;
+    cursor: pointer;
+}
+
+.search-bar input {
+    border: none;
+}
+
+.search-bar input:hover,
+.search-bar input:active {
+    border: 0px;
+}

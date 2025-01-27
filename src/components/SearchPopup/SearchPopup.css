@@ -1,0 +1,49 @@
+.search-popup {
+    background-color: #ffae00;
+    padding: 10px;
+    border: 1px solid #ffae00;
+    border-radius: 10px;
+
+    width: 350px;
+}
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #494d75;
+    margin-bottom: 10px;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.items-name {
+    color: #000;
+}
+.items-input {
+    margin-top: 5px;
+    border: 0px;
+    padding: 15px;
+    font-size: 20px;
+}
+.items-container {
+    padding: 10px;
+}
+.option-name {
+    color: #494d75;
+}
+.option-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.option-content {
+    margin-bottom: 15px;
+}
+.option-input {
+    width: 20%;
+    padding: 5px;
+}
+.popup-btn {
+    padding: 10px 50px;
+}

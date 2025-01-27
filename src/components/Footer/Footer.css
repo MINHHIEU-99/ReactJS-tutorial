@@ -1,0 +1,38 @@
+.footer__navigation {
+    /* max-width: 1094px;
+    min-width: 620px; */
+    margin: 0 auto;
+}
+
+.footer__inner {
+    width: 55%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__column ul li{
+    list-style: none;
+    text-align: start;
+}
+
+a:link{
+    text-decoration: none;
+    color: #006ce4;
+    font-size: 12px;
+}
+
+a:visited {
+    /* color: var(--bui_color_foreground); */
+    color: #1a1a1a;
+    font-weight: bold
+}
+
+a:hover {
+    color: #bc5b01
+}
+
+a:active {
+    color: #a30000
+}
