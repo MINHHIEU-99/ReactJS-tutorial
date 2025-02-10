@@ -9,7 +9,7 @@
 
 .header-container {
     margin: auto;
-    width: 55%;
+    width: 65%;
     height: 100%;
     /* background-color: #e27a19; */
 
@@ -60,18 +60,22 @@
     align-items: center;
     justify-content: space-between;
     width: 90%;
-    
+
 }
 .search-item {
     display: flex;
     gap: 10px;
     align-items: center;
 
-    /* width: 90%; */
+    width: 100%;
 }
 
 .search-item input {
-    width: 250px;
+    width: 80%;
+}
+
+.search-date {
+    width: 100%;
 }
 
 .date-picker {

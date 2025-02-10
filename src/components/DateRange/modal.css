@@ -6,3 +6,14 @@
     z-index: 3;
     top: 50px;
   }
+
+.modal-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.modal-item input {
+    width: 100%;
+}

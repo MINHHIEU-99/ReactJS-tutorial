@@ -50,21 +50,8 @@ const Header = (props) => {
                             />
                         </div>
                         <div className='search-date'>
-                            <div className='search-item'>
-                                <FontAwesomeIcon icon={faCalendar} />
-                                <input
-                                    className='date-input'
-                                    type='text'
-                                    placeholder='06/24/2022 to 06/24/2022'
-                                    min='2024-01-01'
-                                    max='2024-12-31'
-                                    // onClick={handleDateRangeClick}
-                                />
-                            </div>
-                            {/* <div className={dateRangeState ? 'dateRange-close' : 'dateRange-active'}> */}
-                            <div>
-                                <DatePickerModal />
-                            </div>
+                            <DatePickerModal />
+                            
                         </div>
                         <div className='search-item'>
                             <FontAwesomeIcon icon={faPerson} />
